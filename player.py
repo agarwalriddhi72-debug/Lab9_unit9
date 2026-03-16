@@ -7,6 +7,8 @@ Starter Code: None
 Date: March 15, 2026
 """
 
+from coin import Coin
+
 class Player:
     """Initializes the player with name, wallet and coin."""
     def __init__(self, name):

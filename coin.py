@@ -4,12 +4,11 @@ Name: Riddhi Agarwal
 Purpose: This program defines the coin class and represents a coin that can be Heads or Tails.
 Starter Code: None
 Date: March 15, 2026
-
 """
 
 import random
 
-class coin:
+class Coin:
     def __init__(self):
         """Initializes the coin and sets up the __sideup attribute"""
         if random.randinit(0,1) == 0:

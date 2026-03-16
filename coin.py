@@ -11,14 +11,14 @@ import random
 class Coin:
     def __init__(self):
         """Initializes the coin and sets up the __sideup attribute"""
-        if random.randinit(0,1) == 0:
+        if random.randint(0,1) == 0:
             self.__sideup = "Heads"
         else:
             self.__sideup = "Tails"
 
     def toss(self):
         """Generates a random number 0 or 1 and sets __sideup to heads or tails"""
-        if random.randinit(0,1) == 0:
+        if random.randint(0,1) == 0:
             self.__sideup = "Heads"
         else:
             self.__sideup = "Tails"
